@@ -4,4 +4,12 @@
     <!--    Strings Main Activity-->
     <string name="main_title">Calculadora Saudável</string>
     <string name="text_fazer_hoje">O que voce deseja fazer hoje?</string>
+
+    <string-array name="estados">
+        <item>SãoPaulo</item>
+        <item>Minas Gerais</item>
+        <item>Pernambuco</item>
+        <item>Amazonia</item>
+        <item>Paraná</item>
+    </string-array>
 </resources>

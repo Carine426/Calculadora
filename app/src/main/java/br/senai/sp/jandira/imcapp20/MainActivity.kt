@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(abrirImc)
         }
         cardNcd.setOnClickListener {
-            val abrirNcd = Intent(this, NcdActivity2::class.java)
+            val abrirNcd = Intent(this, NcdActivity::class.java)
             startActivity(abrirNcd)
         }
     }

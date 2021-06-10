@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/bmi"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ResultadoNdcActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".ResultadoNdcActivity" />
         <activity android:name=".NcdActivity" />
         <activity android:name=".ResultadoImcActivity" />
         <activity android:name=".ImcActivity2" />

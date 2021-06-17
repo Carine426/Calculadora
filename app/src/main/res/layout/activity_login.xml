@@ -16,14 +16,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-
             android:fontFamily="@font/viga"
+            android:gravity="end"
             android:text="Boa\nForma"
             android:textColor="@color/colorPrimaryDark"
-            android:textSize="48sp"
-            android:gravity="end"
-            android:layout_alignParentStart="true"/>
+            android:textSize="40sp" />
 
         <ImageView
             android:layout_width="98dp"
@@ -36,9 +35,31 @@
     <View
         android:id="@+id/view_wave"
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="35dp"
         android:layout_below="@id/rl_title"
         android:background="@drawable/ic_wave" />
+
+    <TextView
+        android:id="@+id/nome_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="28sp"
+        android:layout_below="@id/view_wave"
+        android:paddingStart="30dp"
+        android:fontFamily="@font/viga"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/mensagem_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faça login para continuar"
+        android:layout_below="@id/nome_login"
+        android:paddingStart="30dp"
+        android:textSize="18sp"
+        android:fontFamily="@font/viga"
+        android:textColor="@color/colorPrimaryDark"/>
 
     <TextView
         android:id="@+id/tv_mensagem_erro"
@@ -52,9 +73,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/view_wave"
-        android:layout_marginTop="0dp"
-        android:padding="24dp">
+        android:layout_below="@id/tv_mensagem_erro"
+        android:padding="40dp">
 
 
         <EditText
